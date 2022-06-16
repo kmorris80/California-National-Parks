@@ -1,0 +1,105 @@
+@import 'variables';
+@import'config';
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Poppins:wght@700&display=swap');
+
+
+
+.park-card{
+    display: flex;
+    flex-direction: column;
+    border: solid 5px;
+    background-color: $primary-color;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10 px;
+    margin-top: 5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 20px 20px 16px rgba(0,0,0,0.25);
+
+
+    .park-img{
+      max-width: 50%;
+      height: auto;
+      border: solid;
+      box-shadow: 10px 10px 16px rgba(0,0,0,0.25);
+     
+    }
+
+    #activity-top{
+        text-decoration-line: underline;
+        font-family:$headline-fonts;
+        font-weight: weight(medium);
+    }
+   
+    .child{
+       padding-top: 1rem;
+
+    }
+    button{
+        display: block;
+        width: 100%;
+        padding: 15px;
+        cursor: pointer;
+        font-family: $headline-fonts;
+       
+      
+        color: #313131;
+        font-size: 20px;
+        
+        
+        appearance:none;
+        border: none;
+        outline: 2px;
+        background: none;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 0px 16px 0px 16px;
+        box-shadow: 0px 0px 16px rgba(0,0,0,0.25);
+        margin-bottom: 1em;
+      
+
+     
+        }
+        
+    
+        }
+        a{
+            font-family: $secondary-font;
+            font-weight: weight(thin);
+            text-decoration: none;
+            &:hover{
+                color: $accent-color;
+                
+            }
+
+        }
+        .park-name{
+            font-family: $headline-fonts;
+            text-decoration: underline;
+        }
+        .park-desc{
+            font-family: $headline-fonts;
+            font-weight: weight(thin);
+            margin-left: 1em;
+            margin-right: 1em;
+        }
+
+        .activities{
+            font-family: $secondary-font;
+            font-weight: weight(regular);
+            font-size: 20px;
+        }
+        h3{
+            font-family: $secondary-font;
+            
+        }
+       
+    
+    
+        
+        
+    
+

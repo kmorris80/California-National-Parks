@@ -1,0 +1,52 @@
+
+
+
+$mobile:800px;
+
+@mixin mobile {
+    @media (max-width: $mobile){
+        @content;
+    }
+};
+#app{
+    @include mobile{
+        flex-direction: row;
+
+}
+
+}
+
+body{
+    background-color:#FFFDD1;
+
+   
+}
+
+#logo{
+    height: 5rem;
+    width: auto;
+    padding-left: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+
+    .park-card{
+        flex-basis: 21%;
+    }
+    
+}
+header{
+    height: auto;
+    width:100%;
+    background-color: #fff;
+
+
+}
+footer{
+    width:100%;
+    background-color: #fff;
+    display:flex;
+}
